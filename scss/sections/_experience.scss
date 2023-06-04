@@ -1,0 +1,50 @@
+.experience{
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  &__list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin: 0;
+    position: relative;
+    &::-webkit-scrollbar {
+      width: 315px;
+      height: 4px;
+      background-color: rgba(255, 255, 255, 0.3);
+      position: absolute;
+
+    }
+  }
+  &__link{
+    color: var(--text-grey-color);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-decoration: none;
+    &:hover,
+    &:active{
+      background: var(--red-text-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0;
+  }
+  &__desk{
+    margin: 0;
+  }
+}

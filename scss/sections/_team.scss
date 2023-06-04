@@ -1,0 +1,39 @@
+.team{
+    &__desk{
+        background: var(--bg-grey-color);
+        border-radius: 12px;
+        overflow: hidden;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        & .team__photo{
+            display: block;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        & .excerption{
+            margin-top: 5px;
+            margin-bottom: 30px;
+            padding: 0 30px;
+            word-wrap: break-word;
+        }
+        &_manager-name{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: var(--text-grey-color);
+            margin: 30px 0 6px;
+            padding: 0 30px;
+        }
+        &_manager{
+            font-size: 14px;
+            line-height: 22px;
+            color: var(--text-grey-color);
+            margin: 0;
+            padding: 0 30px 30px;
+        }
+    }
+}
+
+

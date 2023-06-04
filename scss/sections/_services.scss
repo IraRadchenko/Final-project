@@ -1,0 +1,40 @@
+.services{
+  &__body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  .services__block{
+    display: flex;
+    flex-direction: column;
+    .block__icon{
+      display: block;
+      width: 92px;
+      height: 92px;
+      background-color: var(--text-color);
+      border: 1px solid var(--text-color);
+      border-radius: 24px;
+    }
+    .block__title_link{
+      color: var(--regular-link-color);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      margin: 30px 0 15px;
+      &:hover,
+      &:active{
+        color: var(--accent-link-color);
+      }
+    }
+    .block__title_text{
+      margin: 0;
+    }
+    .block__desk{
+      margin: 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  }
+}

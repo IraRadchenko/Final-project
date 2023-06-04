@@ -1,0 +1,142 @@
+.header {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("../../img/main-symbol.svg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+  overflow: hidden;
+
+  &__top {
+    padding:10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(245, 245, 250, 0.2);
+    & .header__contacts{
+      display: flex;
+      align-items: center;
+      gap: 18px;
+
+      &_address{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--text-grey-color);
+        position: relative;
+        &:before{
+          content: '';
+          width: 6px;
+          height: 6px;
+          display: block;
+          position: absolute;
+          top: 30%;
+          left: -13px;
+          border: 1px solid var(--separator-grey-color);
+          border-radius: 50px;
+          background-color: var(--separator-grey-color);
+        }
+        &:after{
+          content: '';
+          width: 6px;
+          height: 6px;
+          display: block;
+          position: absolute;
+          top: 30%;
+          right: -13px;
+          border: 1px solid var(--separator-grey-color);
+          border-radius: 50px;
+          background-color: var(--separator-grey-color);
+        }
+      }
+      &_tel{
+          color: var(--text-color);
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+          text-decoration: none;
+        position: relative;
+          &:hover {
+            color: var(--accent-link-color);
+          }
+        }
+      &_fb{
+        position: relative;
+        &:before{
+          content: '';
+          width: 6px;
+          height: 6px;
+          display: block;
+          position: absolute;
+          top: 32%;
+          left: -13px;
+          border: 1px solid var(--separator-grey-color);
+          border-radius: 50px;
+          background-color: var(--separator-grey-color);
+        }
+      }
+      }
+    }
+
+  &__link{
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: auto;
+  }
+  &__nav{
+    padding: 15px 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  &__logo{
+    position: relative;
+    &:before{
+      content: 'services';
+      display: block;
+      width: 80px;
+      height: 24px;
+      position: absolute;
+      left: 104px;
+      top: 0;
+      color: var(--text-color);
+      z-index: 5;
+    }
+    &:after{
+      content: '';
+      display: block;
+      width: 3px;
+      height: 26px;
+      position: absolute;
+      background-color: var(--accent-link-color);
+      transform: skew(-20deg);
+      left: 88px;
+      top: 0;
+    }
+  }
+  &__main-title{
+    font-size: 38px;
+    line-height: 46px;
+    margin-top: 139px;
+    margin-bottom: 159px;
+  }
+  .scroll{
+    margin-bottom: 60px;
+  }
+}
+.header__contacts_address,
+.header__contacts_fb{
+  display: none;
+}
+
+
+
+

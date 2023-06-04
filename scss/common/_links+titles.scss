@@ -1,0 +1,44 @@
+link{
+  cursor: pointer;
+}
+
+.link_h3_caps{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--regular-link-color);
+  text-decoration: none;
+  &:hover,
+  &:active{
+    color: var(--accent-link-color);
+  }
+}
+
+.h3-hero-grad{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: var(--red-text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.article__link{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--regular-link-color);
+  text-decoration: none;
+
+
+  &:hover{
+    color: var(--hover-link-color);
+  }
+  &:active{
+    color: var(--active-link-color);
+  };
+
+}
