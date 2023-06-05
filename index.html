@@ -11,69 +11,73 @@
 <body>
 <div class="main-gradient">
     <header class="header">
-        <div class="header__top">
-            <div class="selected-lang">
-                <button class="btn-lang">
-                    УК
-                </button>
-                <button class="btn-lang">
-                    РУ
-                </button>
-                <button class="btn-lang">
-                    EN
-                </button>
+        <div class="header-main">
+            <div class="header__top">
+                <div class="selected-lang">
+                    <button class="btn-lang">
+                        УК
+                    </button>
+                    <button class="btn-lang">
+                        РУ
+                    </button>
+                    <button class="btn-lang">
+                        EN
+                    </button>
+                </div>
+                <div class="header__contacts">
+                    <p class="header__contacts_address">
+                        Kyiv, Mechnikova str., 14/1
+                    </p>
+                    <a class="header__contacts_tel" href="tel:0800211927">0800 211 927</a>
+                    <a  class="header__contacts_fb" href="#">
+                        <!--<img src="img/facebook-logo-header.svg" alt="facebook-logo">-->
+                        <svg  class="link-fb" width="24" height="24" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_22721_6686)">
+                                <path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_22721_6686">
+                                    <rect width="24" height="24" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <div class="header__contacts">
-                <p class="header__contacts_address">
-                    Kyiv, Mechnikova str., 14/1
-                </p>
-            <a class="header__contacts_tel" href="tel:0800211927">0800 211 927</a>
-            <a  class="header__contacts_fb" href="#">
-                <!--<img src="img/facebook-logo-header.svg" alt="facebook-logo">-->
-                <svg  class="link-fb" width="24" height="24" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_22721_6686)">
-                        <path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_22721_6686">
-                            <rect width="24" height="24" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                            </a>
-            </div>
-        </div>
-        <div class="header__nav">
+            <!-- <div class="header__nav">-->
             <a class="header__logo" href="#">
                 <img class="header__logo_img" src="img/logo.svg" alt="logo HLegal">
             </a>
-            <input type="checkbox" id="nav-toggler" class="visually-hidden">
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">about us</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">services</a>
-                    </li>
-                    <li class="nav__item nav__item_mobile-only">
-                        <a href="#" class="nav__link">team</a>
-                    </li>
-                    <li class="nav__item nav__item_mobile-only">
-                        <a href="#" class="nav__link">publications</a>
-                    </li>
-                    <li class="nav__item nav__item_mobile-only">
-                        <a href="#" class="nav__link">contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <label for="nav-toggler" class="nav-switch">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
+            <div class="header__nav">
+                <input type="checkbox" id="nav-toggler" class="visually-hidden">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">about us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">services</a>
+                        </li>
+                        <li class="nav__item nav__item_mobile-only">
+                            <a href="#" class="nav__link">team</a>
+                        </li>
+                        <li class="nav__item nav__item_mobile-only">
+                            <a href="#" class="nav__link">publications</a>
+                        </li>
+                        <li class="nav__item nav__item_mobile-only">
+                            <a href="#" class="nav__link">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <label for="nav-toggler" class="nav-switch">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
         </div>
-        <h1 class="header__main-title center">
+        <!--</div>-->
+        <h1 class="header__main-title ">
             you legal solutions provider
         </h1>
         <a href="#" class="scroll">
@@ -209,25 +213,29 @@
     </section>
 </div>
 <section class="team center">
-    <div class="team__desk">
+    <div class="team__body">
     <div class="team__photo">
         <img class="team__photo_img img-375"
              src="img/team_photo1-315x500.png" alt="Managing partners photo">
         <img class="team__photo_img img-768"
              src="img/team_photo1-648x500.jpg" alt="Managing partners photo">
+        <img class="team__photo_img img-1024"
+             src="img/team_photo1-400x528.png" alt="Managing partners photo">
     </div>
-        <a class="link_h3_caps" href="#">команда &#62;</a>
-        <h2 class="h3-hero-grad excerption">
-            Ми звикли брати на себе відповідальність та завжди
-            гарантуємо чесну, вчасну допомогу, навіть у
-            ситуаціях, коли більшість безсилі.
-        </h2>
-        <p class="team__desk_manager-name">
-            Олександр Олександровський
-        </p>
-        <p class="team__desk_manager">
-            Керуючий партнер
-        </p>
+        <div class="team__desk">
+            <a class="link_h3_caps" href="#">команда &#62;</a>
+            <h2 class="h3-hero-grad excerption">
+                Ми звикли брати на себе відповідальність та завжди
+                гарантуємо чесну, вчасну допомогу, навіть у
+                ситуаціях, коли більшість безсилі.
+            </h2>
+            <p class="team__desk_manager-name">
+                Олександр Олександровський
+            </p>
+            <p class="team__desk_manager">
+                Керуючий партнер
+            </p>
+        </div>
     </div>
 </section>
 <div class="button-scroll">
@@ -289,7 +297,9 @@
     </h3>
     <div class="articles">
         <article class="article article1">
-            <img class="article__img" src="img/publications_img/article1.png" alt="photo">
+            <img class="article__img article__img1" src="img/publications_img/article1.png" alt="photo">
+            <img class="article__img article__img1_281" src="img/publications_img/article1-281.png" alt="photo">
+            <img class="article__img article__img1_513" src="img/publications_img/article1-513.png" alt="photo">
             <div class="article__body">
                 <a class="article__link" href="#">
                     <h4 class="article__link_title">
@@ -308,7 +318,9 @@
             </div>
         </article>
         <article class="article article2">
-            <img class="article__img" src="img/publications_img/article2.png" alt="photo">
+            <img class="article__img article__img2" src="img/publications_img/article2.png" alt="photo">
+            <img class="article__img article__img2_281" src="img/publications_img/article2-281.png" alt="photo">
+            <img class="article__img article__img2_513" src="img/publications_img/article2-513.png" alt="photo">
             <div class="article__body">
                 <a class="article__link" href="#">
                     <h4 class="article__link_title">
@@ -330,8 +342,10 @@
             </div>
         </article>
         <article class="article article3">
-            <img class="article__img" src="img/publications_img/article3.png" alt="photo">
+            <img class="article__img article__img3" src="img/publications_img/article3.png" alt="photo">
             <img class="article__img article__img3_648" src="img/publications_img/article3-648.png" alt="photo">
+            <img class="article__img article__img3_281" src="img/publications_img/article3-281.png" alt="photo">
+            <img class="article__img article__img3_513" src="img/publications_img/article3-513.png" alt="photo">
             <div class="article__body">
                 <a class="article__link" href="#">
                     <h4 class="article__link_title">

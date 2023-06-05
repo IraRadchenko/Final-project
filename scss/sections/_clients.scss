@@ -90,6 +90,10 @@
       & .logo12{
         display: block;
       }
-
+  }
+  @media screen and (min-width: 1020px){
+    &__logo {
+      width: 25%;
+    }
   }
 }

@@ -67,7 +67,7 @@
       flex-direction: row;
       gap: 15px;
       width: 100%;
-      justify-content: space-between;
+      justify-content: start;
     }
     &__link {
       display: block;
@@ -80,7 +80,7 @@
       background-color: transparent;
       border-radius: 0;
       width: 100%;
-      padding: 7px 0;
+      padding:0 0 7px;
       position: relative;
       &:before{
         content: '';
@@ -89,7 +89,6 @@
         position: absolute;
         background-color: transparent;
         bottom: 0;
-
       }
       &:hover:before{
         background-color: var(--text-color);
@@ -118,8 +117,7 @@
     background: #ffffff;
     display: block;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+
     transition: .3s;
     &:nth-child(1) {
       top: 0;
