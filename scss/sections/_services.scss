@@ -1,4 +1,7 @@
 .services{
+  &__title{
+    margin: 10px 0 30px;
+  }
   &__body{
     display: flex;
     flex-direction: column;
@@ -17,16 +20,17 @@
     .block__title_link{
       color: var(--regular-link-color);
       text-decoration: none;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 27px;
       margin: 30px 0 15px;
+      cursor: pointer;
       &:hover,
       &:active{
         color: var(--accent-link-color);
       }
     }
     .block__title_text{
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
       margin: 0;
     }
     .block__desk{
@@ -35,6 +39,25 @@
       font-size: 16px;
       line-height: 26px;
     }
+   }
   }
+  @media screen and (min-width: 767px){
+    &__title{
+      margin: 10px 0 60px;
+    }
+    &__body{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 60px;
+      .services__block{
+        width: 294px;
+        .block__title_link {
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 27px;
+        }
+      }
+    }
   }
 }

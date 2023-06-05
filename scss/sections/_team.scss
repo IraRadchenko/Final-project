@@ -7,9 +7,15 @@
         margin-bottom: 30px;
 
         & .team__photo{
-            display: block;
             margin-bottom: 30px;
             text-align: center;
+            & .img-375{
+                display: block;
+
+            }
+            & .img-768{
+                display: none;
+            }
         }
         & .excerption{
             margin-top: 5px;
@@ -32,6 +38,27 @@
             color: var(--text-grey-color);
             margin: 0;
             padding: 0 30px 30px;
+        }
+    }
+    @media screen and (min-width: 767px) {
+        &__desk {
+            margin-top: 80px;
+            margin-bottom: 30px;
+            & .team__photo{
+                & .img-375{
+                    display: none;
+                }
+                & .img-768{
+                    display: block;
+                    width: 100%;
+                }
+            }
+            & .excerption{
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 46px;
+                word-wrap: break-word;
+            }
         }
     }
 }

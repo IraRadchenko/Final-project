@@ -13,14 +13,13 @@
     gap: 30px;
     overflow-x: scroll;
     white-space: nowrap;
-    margin: 0;
+    margin: 30px;
     position: relative;
     &::-webkit-scrollbar {
       width: 315px;
       height: 4px;
       background-color: rgba(255, 255, 255, 0.3);
       position: absolute;
-
     }
   }
   &__link{
@@ -46,5 +45,20 @@
   }
   &__desk{
     margin: 0;
+  }
+  @media screen and (min-width: 767px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &__title{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+      margin-top: 60px;
+    }
+    &__link {
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 46px;
+    }
   }
 }

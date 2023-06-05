@@ -64,4 +64,32 @@
     background-color: #000000;
     display: none;
   }
+  @media screen and (min-width: 767px){
+    &__flex{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__logo {
+      width: 33.333%;
+    }
+      & .logo7{
+        display: block;
+      }
+      & .logo8{
+        display: block;
+      }
+      & .logo9{
+        display: block;
+      }
+      & .logo10{
+        display: block;
+      }
+      & .logo11{
+        display: block;
+      }
+      & .logo12{
+        display: block;
+      }
+
+  }
 }

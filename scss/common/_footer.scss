@@ -1,25 +1,28 @@
 .footer{
   padding-top: 62px;
   padding-bottom: 30px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
   background-color: var(--bg-grey-color);
-  &__address{
+  &__content {
+    position: relative;
+    margin: 0;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    position: relative;
-    &:before{
+    gap: 25px;
+    &:before {
       position: absolute;
       content: '';
       width: 100%;
       height: 2px;
-      margin: 0 auto;
       top: -30px;
+      left: 0;
       background-color: var(--separator-grey-color);
     }
+  }
+  &__address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 &_name{
   margin: 0;
   font-weight: 400;
@@ -61,4 +64,24 @@
   line-height: 20px;
   color: var(--text-grey-color);
 }
+  @media screen and (min-width: 767px) {
+    &__content {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 21px;
+      .footer__address {
+        display: flex;
+        flex-direction: row;
+      }
+      .footer__privacy {
+        margin-left: auto;
+      }
+      .footer__link {
+        display: flex;
+        flex-direction: row;
+        order: 1;
+        align-items: center;
+      }
+    }
+  }
 }

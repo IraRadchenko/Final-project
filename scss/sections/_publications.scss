@@ -1,6 +1,9 @@
 .publications{
   padding-top: 30px;
   background-color: var(--bg-grey-color);
+  &__title{
+    margin: 30px 0;
+  }
   & .articles{
     display: grid;
     gap: 30px;
@@ -8,6 +11,9 @@
   & .article{
     background-color: var(--text-color);
     border-radius: 8px;
+    & .article__img3_648{
+      display: none;
+    }
     &__body {
       margin: 30px;
       & .article__desk {
@@ -29,6 +35,7 @@
           margin: 0;
         }
       }
+
       & .article__data{
         margin: 15px 0 30px;
         font-weight: 700;
@@ -40,4 +47,22 @@
 
       }
     }
+  @media screen and (min-width: 767px){
+    & .articles{
+     grid-template-columns: 309px 309px;
+      grid-template-rows: 514px 388px;
+      justify-content: space-between;
+      & .article3 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+        & .article__img{
+          display: none;
+        }
+        & .article__img3_648 {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
 }

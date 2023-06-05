@@ -25,6 +25,11 @@ link{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  @media screen and (min-width: 767px){
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+  }
 }
 .article__link{
   font-weight: 700;

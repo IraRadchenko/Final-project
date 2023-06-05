@@ -29,8 +29,18 @@
                 </p>
             <a class="header__contacts_tel" href="tel:0800211927">0800 211 927</a>
             <a  class="header__contacts_fb" href="#">
-                <img src="img/facebook-logo-header.svg" alt="facebook-logo">
-            </a>
+                <!--<img src="img/facebook-logo-header.svg" alt="facebook-logo">-->
+                <svg  class="link-fb" width="24" height="24" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_22721_6686)">
+                        <path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_22721_6686">
+                            <rect width="24" height="24" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                            </a>
             </div>
         </div>
         <div class="header__nav">
@@ -200,7 +210,12 @@
 </div>
 <section class="team center">
     <div class="team__desk">
-    <img class="team__photo" src="img/team_photo_1.png" alt="Managing partners photo">
+    <div class="team__photo">
+        <img class="team__photo_img img-375"
+             src="img/team_photo1-315x500.png" alt="Managing partners photo">
+        <img class="team__photo_img img-768"
+             src="img/team_photo1-648x500.jpg" alt="Managing partners photo">
+    </div>
         <a class="link_h3_caps" href="#">команда &#62;</a>
         <h2 class="h3-hero-grad excerption">
             Ми звикли брати на себе відповідальність та завжди
@@ -227,7 +242,7 @@
 <h3 class="clients__title">
     They already trust us
 </h3>
-    <div class="clients__grid">
+    <div class="clients__flex">
         <div class="clients__logo logo1">
             <img  src="img/clients/hillel.svg" alt="hillel logo">
         </div>
@@ -269,12 +284,12 @@
 </section>
 <section class="publications center">
     <a class="link_h3_caps" href="#">publications &#62;</a>
-    <h3 class="h3-hero-grad">
+    <h3 class="h3-hero-grad publications__title">
         We have something to tell
     </h3>
     <div class="articles">
         <article class="article article1">
-            <img class="article__img" src="img/article1.png" alt="photo">
+            <img class="article__img" src="img/publications_img/article1.png" alt="photo">
             <div class="article__body">
                 <a class="article__link" href="#">
                     <h4 class="article__link_title">
@@ -293,7 +308,7 @@
             </div>
         </article>
         <article class="article article2">
-            <img class="article__img" src="img/article2.png" alt="photo">
+            <img class="article__img" src="img/publications_img/article2.png" alt="photo">
             <div class="article__body">
                 <a class="article__link" href="#">
                     <h4 class="article__link_title">
@@ -315,7 +330,8 @@
             </div>
         </article>
         <article class="article article3">
-            <img class="article__img" src="img/article3.png" alt="photo">
+            <img class="article__img" src="img/publications_img/article3.png" alt="photo">
+            <img class="article__img article__img3_648" src="img/publications_img/article3-648.png" alt="photo">
             <div class="article__body">
                 <a class="article__link" href="#">
                     <h4 class="article__link_title">
@@ -337,12 +353,13 @@
     </div>
 </section>
 <footer class="footer center">
-<div class="footer__address">
-    <p class="footer__address_name">
-        Kyiv, Mechnikova str., 14/1
-    </p>
-    <a class="footer__address_link-map"href="#">On map</a>
-</div>
+<div class="footer__content ">
+    <div class="footer__address">
+        <p class="footer__address_name">
+            Kyiv, Mechnikova str., 14/1
+        </p>
+        <a class="footer__address_link-map" href="#">On map</a>
+    </div>
     <div class="footer__link">
         <a class="footer__link_fb" href="#"><img src="img/facebook-logo-footer.svg" alt="facebook logo">
         </a>
@@ -352,6 +369,7 @@
     <div class="footer__privacy">
         © 2021 HLEGAL Law company, LLC
     </div>
+</div>
 </footer>
 </body>
 </html>
