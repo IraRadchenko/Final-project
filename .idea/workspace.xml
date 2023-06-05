@@ -10,8 +10,8 @@
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/common/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/common/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/_clients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/_clients.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/sections/_experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/_experience.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/sections/_publications.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/_publications.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/sections/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/_services.scss" afterDir="false" />
@@ -53,8 +53,8 @@
       <recent name="D:\HILLEL\Final Project\scss" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\HILLEL\Final Project\img\publications_img" />
       <recent name="D:\HILLEL\Final Project\img" />
+      <recent name="D:\HILLEL\Final Project\img\publications_img" />
       <recent name="D:\HILLEL\Final Project\img\UIKit\Clients" />
     </key>
   </component>
@@ -68,7 +68,7 @@
       <updated>1685522419137</updated>
       <workItem from="1685522424945" duration="6095000" />
       <workItem from="1685532754993" duration="66598000" />
-      <workItem from="1685954871468" duration="19038000" />
+      <workItem from="1685954871468" duration="22052000" />
     </task>
     <servers />
   </component>

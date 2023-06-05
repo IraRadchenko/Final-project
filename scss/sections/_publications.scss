@@ -151,4 +151,29 @@
       }
     }
   }
+  @media screen and (min-width: 1920px){
+    & .articles {
+
+      & .article {
+        & .article__img1_420 {
+          display: none;
+        }
+        & .article__img1_513{
+          display: block;
+        }
+        & .article__img2_420 {
+          display: none;
+        }
+        & .article__img2_513{
+          display: block;
+        }
+        & .article__img3_420 {
+          display: none;
+        }
+        & .article__img3_513{
+          display: block;
+        }
+      }
+    }
+  }
 }

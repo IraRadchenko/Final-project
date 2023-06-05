@@ -21,6 +21,9 @@
             & .img-1440{
                 display: none;
             }
+            & .img-1920{
+                display: none;
+            }
         }
         & .excerption{
             margin-top: 5px;
@@ -98,6 +101,18 @@
             }
             & .desk{
                 padding: 30px;
+            }
+        }
+    }
+    @media screen and (min-width: 1920px){
+        &__body {
+            & .team__photo {
+                & .img-1440 {
+                   display: none;
+                }
+                & .img-1920{
+                    display: block;
+                }
             }
         }
     }

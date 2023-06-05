@@ -70,6 +70,7 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: end;
+      gap: 30px;
       width: 375px;
       margin: 0;
       &::-webkit-scrollbar{
@@ -87,6 +88,11 @@
     align-items: center;
     &__body {
       width: 581px;
+    }
+  }
+  @media screen and (min-width: 1920px){
+    &__body {
+      width: 861px;
     }
   }
 }
