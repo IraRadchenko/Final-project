@@ -14,16 +14,25 @@
     & .article__img1_281{
       display: none;
     }
+    & .article__img1_420{
+      display: none;
+    }
     & .article__img1_513{
       display: none;
     }
     & .article__img2_281{
       display: none;
     }
+    & .article__img2_420{
+      display: none;
+    }
     & .article__img2_513{
       display: none;
     }
     & .article__img3_648{
+      display: none;
+    }
+    & .article__img3_420{
       display: none;
     }
     & .article__img3_513{
@@ -114,8 +123,31 @@
         & .article__img3_281{
           display: block;
         }
-
-
+      }
+    }
+  }
+  @media screen and (min-width: 1440px){
+    & .articles {
+      display: flex;
+      & .article {
+        & .article__img1_281 {
+          display: none;
+        }
+        & .article__img1_420{
+          display: block;
+        }
+        & .article__img2_281 {
+          display: none;
+        }
+        & .article__img2_420{
+          display: block;
+        }
+        & .article__img3_281 {
+          display: none;
+        }
+        & .article__img3_420{
+          display: block;
+        }
       }
     }
   }

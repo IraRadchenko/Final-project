@@ -230,6 +230,12 @@ position: relative;
       width: 100%;
     }
   }
+  @media screen and (min-width: 1440px){
+    .header__main-title{
+      margin-top: 261px;
+      margin-bottom: 305px;
+    }
+  }
 }
 
 

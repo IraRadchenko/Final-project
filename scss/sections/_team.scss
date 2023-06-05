@@ -18,6 +18,9 @@
             & .img-1024{
                 display: none;
             }
+            & .img-1440{
+                display: none;
+            }
         }
         & .excerption{
             margin-top: 5px;
@@ -54,9 +57,6 @@
                     display: block;
                     width: 100%;
                 }
-                & .img-1024{
-                    display: none;
-                }
             }
             & .excerption{
                 font-weight: 700;
@@ -80,9 +80,24 @@
                 }
             }
             & .excerption{
-
                 padding: 0 30px 0 0;
                 word-wrap: break-word;
+            }
+        }
+    }
+    @media screen and (min-width: 1440px){
+        &__body {
+            & .team__photo {
+                & .img-1024 {
+                    display: none;
+                }
+
+                & .img-1440 {
+                    display: block;
+                }
+            }
+            & .desk{
+                padding: 30px;
             }
         }
     }
