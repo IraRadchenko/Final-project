@@ -11,7 +11,7 @@
     padding: 0;
     display: flex;
     gap: 30px;
-    overflow-x: scroll;
+    overflow-x: auto;
     white-space: nowrap;
     margin: 30px 0;
     position: relative;
@@ -20,6 +20,9 @@
       height: 4px;
       background-color: rgba(255, 255, 255, 0.3);
       position: absolute;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--accent-link-color);
     }
   }
   &__link{
@@ -70,10 +73,16 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: end;
+      overflow-x: auto;
       gap: 30px;
       width: 375px;
       margin: 0;
       &::-webkit-scrollbar{
+        width: 4px;
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.3);
+        position: absolute;
+
       }
     }
     &__body{

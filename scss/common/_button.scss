@@ -69,3 +69,20 @@
     opacity: 1;
   }
 }
+.btn-modal{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 315px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 15px;
+  color: var(--text-color);
+  background-color: var(--regular-link-color);
+  border: 1px solid var(--regular-link-color);
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  @media screen and (min-width: 1440px){
+    width: 590px;
+  }
+}
