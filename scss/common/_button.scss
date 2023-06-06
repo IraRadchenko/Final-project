@@ -18,6 +18,28 @@
     border: 1px solid var(--accent-link-color);
   }
 }
+.btn-lang_white-bg{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--text-grey-color);
+  background-color: transparent;
+  border: transparent;
+  border-radius: 8px;
+  padding: 5px 7px;
+  margin: -3px;
+  &:hover{
+    background: var(--bg-grey-color);
+  }
+  &:active{
+    background: var(--accent-link-color);
+    border: 1px solid var(--accent-link-color);
+  }
+}
+
+
 
 .scroll {
   margin: 0 auto;
