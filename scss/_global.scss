@@ -53,3 +53,30 @@ body{
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.main{
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+}
+.conteiner {
+  padding-left: calc(50vw - 157px);
+  padding-right: calc(50vw - 157px);
+
+  @media screen and (min-width: 767px) {
+    padding-left: calc(50vw - 324px);
+    padding-right: calc(50vw - 324px);
+  }
+  @media screen and (min-width: 1020px) {
+    padding-left: calc(50vw - 452px);
+    padding-right: calc(50vw - 452px);
+  }
+  @media screen and (min-width: 1440px) {
+    padding-left: calc(50vw - 540px);
+    padding-right: calc(50vw - 540px);
+  }
+  @media screen and (min-width: 1920px) {
+    padding-left: calc(50vw - 680px);
+    padding-right: calc(50vw - 680px);
+  }
+}

@@ -1,0 +1,46 @@
+.more{
+  &__desk{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    & p{
+      margin: 0;
+      &:nth-child(2){
+        margin-top: 19px;
+        margin-bottom: 19px;
+      }
+    }
+  }
+  .h3-hero-grad {
+    margin: 0;
+  }
+  @media screen and (min-width: 1020px){
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 60px;
+    &__desk{
+      width: 482px;
+    }
+    & h3{
+      padding-top: 30px;
+      width: 362px;
+    }
+  }
+  @media screen and (min-width: 1440px){
+    margin-top: 60px;
+    &__desk{
+      width: 658px;
+      padding: 0;
+    }
+    & h3{
+      padding-top: 0;
+      width: 362px;
+    }
+  }
+  @media screen and (min-width: 1920px){
+    margin-top: 60px;
+    &__desk{
+      width: 938px;
+    }
+  }
+}

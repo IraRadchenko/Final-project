@@ -1,0 +1,80 @@
+.main{
+  .intro{
+    margin: 30px 0;
+    .introduction {
+      .h3-hero-grad {
+        margin: 0;
+      }
+      &__desk{
+        margin: 28px 0 30px;
+        & p{
+          margin-top: 0;
+        }
+        & p:nth-child(2){
+          margin-bottom: 0;
+        }
+      }
+    }
+    .advantages{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding-left: 35px;
+      position: relative;
+      &:before{
+        content: '';
+        height: 322px;
+        width: 4px;
+        background-color: var(--separator-grey-color);
+        position: absolute;
+        left: 0;
+        @media screen and (min-width: 767px){
+          height: 302px;
+        }
+      }
+      .advantage {
+        &__title {
+          display: flex;
+          align-items: center;
+          gap: 13px;
+          margin: 0;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          background: var(--red-text-gradient);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+        }
+        &__desk {
+          margin: 0;
+          padding-top: 10px;
+          font-size: 16px;
+          line-height: 20px;
+          color: var(--main-color);
+        }
+      }
+    }
+    @media screen and (min-width: 1020px){
+      display: flex;
+      gap: 30px;
+      .introduction{
+        width: 486px;
+      }
+      .advantages{
+        width: 388px;
+      }
+    }
+    @media screen and (min-width: 1440px){
+      .introduction{
+        width: 662px;
+      }
+    }
+    @media screen and (min-width: 1920px){
+      .introduction{
+        width: 942px;
+      }
+    }
+  }
+}
