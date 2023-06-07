@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d47b60f-a45a-459e-94ba-b1fe71c1d176" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/about_us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/about_us.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/about_us/_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/about_us/_intro.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/about_us/_more.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about_us.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about_us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about_us.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/about_us.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/about_us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/about_us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/about_us/_achievements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/about_us/_achievements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/about_us/_header-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/about_us/_header-light.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/about_us/_intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/about_us/_intro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/common/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/common/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/common/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/_experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/_experience.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/_offer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sections/_offer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +76,7 @@
       <updated>1685522419137</updated>
       <workItem from="1685522424945" duration="6095000" />
       <workItem from="1685532754993" duration="66598000" />
-      <workItem from="1685954871468" duration="63142000" />
+      <workItem from="1685954871468" duration="80988000" />
     </task>
     <servers />
   </component>

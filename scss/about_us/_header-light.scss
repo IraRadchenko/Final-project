@@ -1,0 +1,104 @@
+.header{
+  position: static;
+  &__top{
+    background-color: rgba(245, 245, 250, 1);
+  .selected-lang{
+    .btn-lang{
+      color: var(--text-grey-color);
+      &:hover{
+        background-color: var(--bg-grey-color) ;
+        border-color: var(--bg-grey-color);
+      }
+    }
+  }
+  .header__contacts{
+     &_tel{
+        color: var(--text-grey-color);
+     }
+  }
+  }
+  &__logo-dark{
+    position: relative;
+    text-align: left;
+    padding: 15px 15px 0;
+
+    &:before{
+      content: 'about us';
+      display: block;
+      width: 88px;
+      height: 24px;
+      color: var(--main-color);
+      position: absolute;
+      left: 104px;
+      top: 30%;
+      z-index: 5;
+
+    }
+    &:after{
+      content: '';
+      display: block;
+      width: 3px;
+      height: 26px;
+      background-color: var(--accent-link-color);
+      position: absolute;
+      transform: skew(-20deg);
+      left: 90px;
+      top: 25%;
+    }
+  }
+  &__nav{
+    .nav__link{
+      color: var(--regular-link-color);
+      &:hover:before{
+        background-color: var(--regular-link-color);
+      }
+      &:active:before{
+        background-color: var(--accent-link-color);
+      }
+    }
+    .nav-switch{
+      &:hover {
+        background-color: rgba(230, 230, 240, 1);
+        padding: 25px 12px 0;
+        border-radius: 8px;
+      }
+      span{
+        background-color: var(--main-color);
+      }
+    }
+  }
+  @media screen and (min-width: 767px) {
+    &__top {
+      background-color: transparent;
+    }
+    &__logo-dark {
+      padding: 15px 0 0;
+      &:before {
+        content: 'about us';
+        display: block;
+        width: 159px;
+        height: 44px;
+        font-size: 36px;
+        line-height: 44px;
+        color: var(--main-color);
+        left: 159px;
+        top: 20%;
+      }
+      &:after{
+        content: '';
+        display: block;
+        width: 4px;
+        height: 47px;
+        background-color: var(--accent-link-color);
+        left: 140px;
+        top: 20%;
+      }
+    }
+    @media screen and (min-width: 1020px){
+      .header__logo-dark{
+        position: absolute;
+        top: 50px;
+      }
+    }
+  }
+}

@@ -139,7 +139,7 @@
   z-index: 100;
   padding: 19px 12px 5px;
   span {
-    width: 100%;
+    width: 18px;
     height: 2px;
     background: var(--text-color);
     display: block;
@@ -147,33 +147,15 @@
     transform: translateX(-50%);
     transition: .3s;
     &:nth-child(1) {
-      top: 0;
-    }
-    &:nth-child(2) {
-      top: 7px;
-    }
-    &:nth-child(3) {
-      top: 14px;
-    }
-  }
-  .white-header {
-    width: 100%;
-    height: 2px;
-    background: var(--main-color);
-    display: block;
-    position: absolute;
-    transition: .3s;
-    &:nth-child(1) {
-      top: 5px;
+      top: 3px;
     }
     &:nth-child(2) {
       top: 10px;
     }
     &:nth-child(3) {
-      top: 16px;
+      top: 17px;
     }
   }
-
   #nav-toggler:checked ~ & {
     span {
       background-color: #EC6F5D;

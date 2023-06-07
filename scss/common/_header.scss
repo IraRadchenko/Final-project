@@ -1,25 +1,17 @@
 .header {
-  padding: 0 0 30px;
+  position: absolute;
+  z-index: 1;
+  padding: 0 ;
   color: var(--text-color);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-image: url("../img/main-symbol.svg");
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  .header-main{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-  }
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
   &__top {
     padding:11px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     background: rgba(245, 245, 250, 0.2);
     grid-template-rows: 1 / 2;
     grid-column: 1 / 3;
@@ -65,7 +57,7 @@
           font-size: 16px;
           line-height: 20px;
           text-decoration: none;
-        position: relative;
+          position: relative;
           &:hover {
             color: var(--accent-link-color);
           }
@@ -87,14 +79,14 @@
       }
       }
     }
-  &__link{
+  /*&__link{
     color: var(--text-color);
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     margin-right: auto;
-  }
+  }*/
   &__logo{
     position: relative;
     text-align: left;
@@ -124,19 +116,12 @@
     }
   }
   &__nav{
+    right: 0;
     margin-left: auto;
     padding-top: 20px;
     padding-right: 15px;
   }
-  &__main-title{
-    font-size: 38px;
-    line-height: 46px;
-    margin: 139px auto 159px;
-    width: 60%;
-  }
-  .scroll{
-    margin-bottom: 60px;
-  }
+
   &__contacts_address,
   &__contacts_fb{
     display: none;
@@ -146,11 +131,10 @@
   }
   @media screen and (min-width: 767px){
     padding: 0 60px;
-    .header-main{
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-       .header__logo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    .header__logo{
         padding: 15px 0 0;
         &_img{
           width: 130px;
@@ -161,8 +145,7 @@
         &:after{
           display: none;
         }
-      }
-       .header__nav{
+      .header__nav{
         margin-left: 0;
         padding-right: 0;
       }
@@ -186,46 +169,25 @@
       }
     }
     }
-    &__main-title{
-      margin-top: 274px;
-      margin-bottom: 417px;
-      width: 100%;
-    }
   }
   @media screen and (min-width: 1020px){
-.header-main{
-   position: relative;
   .header__top{
     justify-content: end;
     padding-top: 50px;
   }
   .header__logo{
    position: absolute;
-    top: 50px;
+   top: 50px;
   }
   & .header__nav{
     padding-top: 10px;
-
   }
-}
-    &__main-title{
-      margin-top: 245px;
-      margin-bottom: 289px;
-      width: 100%;
-    }
   }
   @media screen and (min-width: 1440px){
-    .header__main-title{
-      margin-top: 261px;
-      margin-bottom: 305px;
-    }
+
   }
   @media screen and (min-width: 1920px){
     padding: 0 160px;
-    .header__main-title{
-      margin-top: 362px;
-      margin-bottom: 405px;
-    }
   }
 }
 

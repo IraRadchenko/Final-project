@@ -1,0 +1,53 @@
+.offer{
+  position: relative;
+  text-align: center;
+  background-image: url("../img/main-symbol.svg");
+  z-index: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 231px;
+  padding-bottom: 231px;
+  &__main-title{
+    font-size: 38px;
+    line-height: 46px;
+    max-width: 315px;
+    margin: 0 auto;
+  }
+  .scroll-btn{
+    left: 50%;
+    top: 159px;
+  }
+  @media screen and (min-width: 767px){
+    padding-top: 489px;
+    padding-bottom: 489px;
+    &__main-title{
+     min-width: 760px;
+    }
+    .scroll-btn{
+      top: 417px;
+    }
+  }
+  @media screen and (min-width: 1020px){
+    background-size: contain;
+    padding-top: 361px;
+    padding-bottom: 361px;
+    .scroll-btn{
+      top: 289px;
+    }
+  }
+  @media screen and (min-width: 1440px){
+    padding-top: 376px;
+    padding-bottom: 377px;
+    .scroll-btn{
+      top: 305px;
+    }
+  }
+  @media screen and (min-width: 1920px){
+    padding-top: 477px;
+    padding-bottom: 477px;
+    .scroll-btn{
+      top: 405px;
+    }
+  }
+}
