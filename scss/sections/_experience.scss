@@ -8,23 +8,22 @@
   padding-bottom: 30px;
   &__list{
     list-style-type: none;
-    padding: 0;
+    padding: 0 0 30px;
     display: flex;
     gap: 30px;
     overflow-x: auto;
     white-space: nowrap;
-    margin: 30px 0;
+    scroll-snap-type: x proximity;
+    margin: 0;
     position: relative;
     &::-webkit-scrollbar {
-
-     /* width: 315px;
+     width: 315px;
       height: 4px;
       background-color: rgba(255, 255, 255, 0.3);
-      position: absolute;*/
     }
-    &::-webkit-scrollbar-thumb {
-     /* background-color: var(--accent-link-color);*/
-    }
+  }
+  &__item{
+    scroll-snap-align: start;
   }
   &__link{
     color: var(--text-grey-color);
@@ -55,6 +54,9 @@
   @media screen and (min-width: 767px) {
     padding-top: 60px;
     padding-bottom: 60px;
+    &__list{
+      padding-bottom: 60px;
+    }
     &__title{
       font-weight: 700;
       font-size: 30px;
@@ -69,21 +71,21 @@
   }
   @media screen and (min-width: 1020px){
     flex-direction: row;
-    gap: 124px;
+    justify-content: center;
     &__list{
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       align-items: end;
-      overflow-x: auto;
+      overflow-y: scroll;
       gap: 30px;
-      width: 375px;
-      margin: 0;
+      margin: 0 60px 0 0;
+      padding: 0 60px 0 0;
+      position: relative;
       &::-webkit-scrollbar{
         width: 4px;
-        height: 100px;
+        height: 303px;
         background-color: rgba(255, 255, 255, 0.3);
         position: absolute;
-
       }
     }
     &__body{

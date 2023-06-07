@@ -1133,22 +1133,22 @@ link {
 }
 .experience__list {
   list-style-type: none;
-  padding: 0;
+  padding: 0 0 30px;
   display: flex;
   gap: 30px;
   overflow-x: auto;
   white-space: nowrap;
-  margin: 30px 0;
+  scroll-snap-type: x proximity;
+  margin: 0;
   position: relative;
 }
 .experience__list::-webkit-scrollbar {
-  /* width: 315px;
-   height: 4px;
-   background-color: rgba(255, 255, 255, 0.3);
-   position: absolute;*/
+  width: 315px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
-.experience__list::-webkit-scrollbar-thumb {
-  /* background-color: var(--accent-link-color);*/
+.experience__item {
+  scroll-snap-align: start;
 }
 .experience__link {
   color: var(--text-grey-color);
@@ -1181,6 +1181,9 @@ link {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .experience__list {
+    padding-bottom: 60px;
+  }
   .experience__title {
     font-weight: 700;
     font-size: 30px;
@@ -1196,20 +1199,21 @@ link {
 @media screen and (min-width: 1020px) {
   .experience {
     flex-direction: row;
-    gap: 124px;
+    justify-content: center;
   }
   .experience__list {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: end;
-    overflow-x: auto;
+    overflow-y: scroll;
     gap: 30px;
-    width: 375px;
-    margin: 0;
+    margin: 0 60px 0 0;
+    padding: 0 60px 0 0;
+    position: relative;
   }
   .experience__list::-webkit-scrollbar {
     width: 4px;
-    height: 100px;
+    height: 303px;
     background-color: rgba(255, 255, 255, 0.3);
     position: absolute;
   }
