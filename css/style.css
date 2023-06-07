@@ -1321,7 +1321,7 @@ link {
   margin-bottom: 30px;
   width: 315px;
   height: 500px;
-  background-image: url("../../img/team-1.png");
+  background-image: url("../img/team-1.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1546,13 +1546,13 @@ link {
   margin: 0;
 }
 .publications .article .article__img_1 {
-  background-image: url("../../img/publications_img/publication-1.jpg");
+  background-image: url("../img/publications_img/publication-1.jpg");
 }
 .publications .article .article__img_2 {
-  background-image: url("../../img/publications_img/publication-2.jpg");
+  background-image: url("../img/publications_img/publication-2.jpg");
 }
 .publications .article .article__img_3 {
-  background-image: url("../../img/publications_img/publication-3.jpg");
+  background-image: url("../img/publications_img/publication-3.jpg");
 }
 .publications .article__body {
   margin: 30px;
