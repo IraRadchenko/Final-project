@@ -394,7 +394,7 @@ body {
 .main {
   font-weight: 400;
   font-size: 19px;
-  line-height: 30px;
+  line-height: 1.5789;
   color: #000000;
 }
 
@@ -470,14 +470,6 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto;
-  /*&__link{
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    margin-right: auto;
-  }*/
 }
 .header__top {
   padding: 11px 15px;
@@ -496,7 +488,7 @@ body {
 .header__top .header__contacts_address {
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--text-grey-color);
   position: relative;
   margin: 0;
@@ -529,7 +521,7 @@ body {
   color: var(--text-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   text-decoration: none;
   position: relative;
 }
@@ -651,7 +643,7 @@ body {
 .btn-lang {
   font-weight: 700;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   text-align: center;
   letter-spacing: 1px;
   color: var(--text-color);
@@ -672,7 +664,7 @@ body {
 .btn-lang_white-bg {
   font-weight: 700;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   text-align: center;
   letter-spacing: 1px;
   color: var(--text-grey-color);
@@ -742,7 +734,7 @@ body {
 .btn-modal {
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   width: 315px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -766,7 +758,7 @@ link {
 .link_h3_caps {
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.214;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--regular-link-color);
@@ -780,7 +772,7 @@ link {
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
-  line-height: 37px;
+  line-height: 1.233;
   background: var(--red-text-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -790,14 +782,14 @@ link {
   .h3-hero-grad {
     font-weight: 700;
     font-size: 38px;
-    line-height: 46px;
+    line-height: 1.21;
   }
 }
 
 .article__link {
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--regular-link-color);
   text-decoration: none;
 }
@@ -849,7 +841,7 @@ link {
   display: block;
   font-weight: 700;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.208;
   text-align: center;
   color: var(--regular-link-color);
   text-decoration: none;
@@ -891,7 +883,7 @@ link {
     display: block;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     text-align: center;
     color: var(--text-color);
     text-decoration: none;
@@ -1034,7 +1026,7 @@ link {
   width: 315px;
   padding: 14px;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
   color: var(--text-grey-color);
   border: 1px solid var(--text-color);
   border-radius: 8px;
@@ -1046,7 +1038,7 @@ link {
 .modal__content .answer {
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.214;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--text-grey-color);
@@ -1073,7 +1065,7 @@ link {
 }
 .offer__main-title {
   font-size: 38px;
-  line-height: 46px;
+  line-height: 1.21;
   max-width: 315px;
   margin: 0 auto;
 }
@@ -1127,7 +1119,7 @@ link {
   flex-direction: column;
   font-weight: 400;
   font-size: 19px;
-  line-height: 30px;
+  line-height: 1.578;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -1154,7 +1146,7 @@ link {
   color: var(--text-grey-color);
   font-weight: 700;
   font-size: 30px;
-  line-height: 37px;
+  line-height: 1.233;
   text-decoration: none;
 }
 .experience__link:hover {
@@ -1170,7 +1162,7 @@ link {
 .experience__title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   margin: 30px 0;
 }
 .experience__desk {
@@ -1187,13 +1179,13 @@ link {
   .experience__title {
     font-weight: 700;
     font-size: 30px;
-    line-height: 37px;
+    line-height: 1.233;
     margin-top: 60px;
   }
   .experience__link {
     font-weight: 700;
     font-size: 38px;
-    line-height: 46px;
+    line-height: 1.21;
   }
 }
 @media screen and (min-width: 1020px) {
@@ -1271,14 +1263,14 @@ link {
 .services__body .services__block .block__title_text {
   font-weight: 700;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 1.227;
   margin: 0;
 }
 .services__body .services__block .block__desk {
   margin: 0;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
 }
 @media screen and (min-width: 767px) {
   .services__title {
@@ -1296,7 +1288,7 @@ link {
   .services__body .services__block .block__title_link {
     font-weight: 700;
     font-size: 22px;
-    line-height: 27px;
+    line-height: 1.227;
   }
 }
 @media screen and (min-width: 1020px) {
@@ -1325,27 +1317,28 @@ link {
   background-position: center;
   background-repeat: no-repeat;
 }
-.team__body .excerption {
+.team__body .team__desk {
+  padding: 0 30px;
+}
+.team__body .team__desk .excerption {
   margin-top: 5px;
   margin-bottom: 30px;
-  padding: 0 30px;
   word-wrap: break-word;
 }
-.team__body_manager-name {
+.team__body .team__desk_manager-name {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--text-grey-color);
   margin: 30px 0 6px;
-  padding: 0 30px;
 }
-.team__body_manager {
+.team__body .team__desk_manager {
   font-size: 14px;
-  line-height: 22px;
+  line-height: 1.571;
   color: var(--text-grey-color);
   margin: 0;
-  padding: 0 30px 30px;
+  padding: 0 0 30px;
 }
 @media screen and (min-width: 767px) {
   .team__body {
@@ -1360,7 +1353,7 @@ link {
   .team__body .excerption {
     font-weight: 700;
     font-size: 38px;
-    line-height: 46px;
+    line-height: 1.21;
   }
 }
 @media screen and (min-width: 1020px) {
@@ -1374,7 +1367,9 @@ link {
     margin: 0;
   }
   .team__body .team__desk {
-    width: 475px;
+    width: 504px;
+    padding-top: 30px;
+    padding-left: 0;
   }
   .team__body .excerption {
     padding: 0 30px 0 0;
@@ -1422,7 +1417,7 @@ link {
 .clients__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.214;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--main-color);
@@ -1489,22 +1484,7 @@ link {
   .clients__logo {
     width: 33.333%;
   }
-  .clients .logo7 {
-    display: block;
-  }
-  .clients .logo8 {
-    display: block;
-  }
-  .clients .logo9 {
-    display: block;
-  }
-  .clients .logo10 {
-    display: block;
-  }
-  .clients .logo11 {
-    display: block;
-  }
-  .clients .logo12 {
+  .clients .logo7, .clients .logo8, .clients .logo9, .clients .logo10, .clients .logo11, .clients .logo12 {
     display: block;
   }
 }
@@ -1559,7 +1539,7 @@ link {
 }
 .publications .article__body .article__desk {
   font-size: 14px;
-  line-height: 22px;
+  line-height: 1.571;
   color: #000000;
   position: relative;
   margin: 0;
@@ -1579,7 +1559,7 @@ link {
   margin: 15px 0 34px;
   font-weight: 700;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--text-grey-color);
@@ -1656,14 +1636,14 @@ link {
   margin: 0;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--main-color);
 }
 .footer__address_link-map {
   text-decoration: none;
   font-weight: 700;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--regular-link-color);
@@ -1682,14 +1662,14 @@ link {
 .footer__link_tel {
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--alt-color);
   text-decoration: none;
 }
 .footer__link_email {
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--regular-link-color);
   text-decoration: none;
 }
@@ -1698,7 +1678,7 @@ link {
 }
 .footer__privacy {
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--text-grey-color);
 }
 @media screen and (min-width: 767px) {

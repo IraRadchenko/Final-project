@@ -27,14 +27,14 @@
   margin: 0;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--main-color);
 }
     &_link-map{
       text-decoration: none;
       font-weight: 700;
       font-size: 12px;
-      line-height: 15px;
+      line-height: 1.25;
       letter-spacing: 1px;
       text-transform: uppercase;
       color: var(--regular-link-color);
@@ -53,14 +53,14 @@
     &_tel{
       font-weight: 700;
       font-size: 16px;
-      line-height: 20px;
+      line-height: 1.25;
       color: var(--alt-color);
       text-decoration: none;
     }
     &_email{
       font-weight: 700;
       font-size: 16px;
-      line-height: 20px;
+      line-height: 1.25;
       color: var(--regular-link-color);
       text-decoration: none;
       &:hover{
@@ -70,7 +70,7 @@
   }
 &__privacy{
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   color: var(--text-grey-color);
 }
   @media screen and (min-width: 767px) {

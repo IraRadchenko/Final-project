@@ -4,7 +4,7 @@
   &__title{
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.214;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--main-color);
@@ -72,21 +72,11 @@
     &__logo {
       width: 33.333%;
     }
-      & .logo7{
-        display: block;
-      }
-      & .logo8{
-        display: block;
-      }
-      & .logo9{
-        display: block;
-      }
-      & .logo10{
-        display: block;
-      }
-      & .logo11{
-        display: block;
-      }
+      & .logo7,
+      & .logo8,
+      & .logo9,
+      & .logo10,
+      & .logo11,
       & .logo12{
         display: block;
       }

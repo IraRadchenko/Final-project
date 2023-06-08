@@ -13,29 +13,32 @@
             background-image: url("../img/team-1.png");
             background-position: center;
             background-repeat: no-repeat;
+        }
+        & .team__desk {
+            padding: 0 30px;
 
-        }
-        & .excerption{
-            margin-top: 5px;
-            margin-bottom: 30px;
-            padding: 0 30px;
-            word-wrap: break-word;
-        }
-        &_manager-name{
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 20px;
-            color: var(--text-grey-color);
-            margin: 30px 0 6px;
-            padding: 0 30px;
-        }
-        &_manager{
-            font-size: 14px;
-            line-height: 22px;
-            color: var(--text-grey-color);
-            margin: 0;
-            padding: 0 30px 30px;
+            & .excerption {
+                margin-top: 5px;
+                margin-bottom: 30px;
+                word-wrap: break-word;
+            }
+
+            &_manager-name {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 1.25;
+                color: var(--text-grey-color);
+                margin: 30px 0 6px;
+            }
+
+            &_manager {
+                font-size: 14px;
+                line-height: 1.571;
+                color: var(--text-grey-color);
+                margin: 0;
+                padding: 0 0 30px;
+            }
         }
     }
     @media screen and (min-width: 767px) {
@@ -50,7 +53,7 @@
             & .excerption{
                 font-weight: 700;
                 font-size: 38px;
-                line-height: 46px;
+                line-height: 1.21;
             }
         }
     }
@@ -64,7 +67,9 @@
                 margin: 0;
             }
             & .team__desk{
-                width: 475px;
+                width: 504px;
+                padding-top: 30px;
+                padding-left: 0;
             }
             & .excerption{
                 padding: 0 30px 0 0;
