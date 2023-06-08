@@ -13,14 +13,14 @@
 <div class="main-gradient">
     <header class="header">
             <div class="header__top">
-                <div class="selected-lang">
+                <div class="lang">
                     <button class="btn-lang">
                         УК
                     </button>
                     <button class="btn-lang">
                         РУ
                     </button>
-                    <button class="btn-lang">
+                    <button class="btn-lang btn-lang__active">
                         EN
                     </button>
                 </div>
@@ -126,7 +126,6 @@
                          IT and e-commerce
                     </h3>
                 </a>
-
                 <div id="open-modal" class="modal">
                     <form class="modal__content" action="#" method="post" name="help">
                         <a href="#close" class="close">
@@ -135,13 +134,13 @@
                         <h3 class="modal__title h3-hero-grad">
                             We would like to help you
                         </h3>
-                        <input class="modal__input" type="text" name="userName" placeholder="Name">
-                        <textarea class="modal__input" name="message" id="message" placeholder="Message"></textarea>
+                        <input class="modal__input" type="text" name="userName" placeholder="Name" required>
+                        <textarea class="modal__input" name="message" id="message" placeholder="Message" required></textarea>
                         <h3 class="answer">
                             How to answer you?
                         </h3>
-                        <input class="modal__input" type="tel" name="userPhone" placeholder="Phone">
-                        <input class="modal__input" type="email" name="userEmail" placeholder="Email">
+                        <input class="modal__input" type="tel" name="userPhone" placeholder="Phone" required>
+                        <input class="modal__input" type="email" name="userEmail" placeholder="Email" required>
                         <button class="btn-modal" type="submit">
                             Send message
                         </button>

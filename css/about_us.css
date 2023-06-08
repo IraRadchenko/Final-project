@@ -398,30 +398,30 @@ body {
   color: #000000;
 }
 
-.conteiner {
+.container {
   padding-left: calc(50vw - 157px);
   padding-right: calc(50vw - 157px);
 }
 @media screen and (min-width: 767px) {
-  .conteiner {
+  .container {
     padding-left: calc(50vw - 324px);
     padding-right: calc(50vw - 324px);
   }
 }
 @media screen and (min-width: 1020px) {
-  .conteiner {
+  .container {
     padding-left: calc(50vw - 452px);
     padding-right: calc(50vw - 452px);
   }
 }
 @media screen and (min-width: 1440px) {
-  .conteiner {
+  .container {
     padding-left: calc(50vw - 540px);
     padding-right: calc(50vw - 540px);
   }
 }
 @media screen and (min-width: 1920px) {
-  .conteiner {
+  .container {
     padding-left: calc(50vw - 680px);
     padding-right: calc(50vw - 680px);
   }
@@ -717,9 +717,8 @@ body {
 .btn-lang:hover {
   background: rgba(255, 255, 255, 0.2);
 }
-.btn-lang:active {
+.btn-lang:active, .btn-lang__active {
   background: var(--accent-link-color);
-  border: 1px solid var(--accent-link-color);
 }
 
 .btn-lang_white-bg {
@@ -738,9 +737,8 @@ body {
 .btn-lang_white-bg:hover {
   background: var(--bg-grey-color);
 }
-.btn-lang_white-bg:active {
+.btn-lang_white-bg:active, .btn-lang_white-bg_active {
   background: var(--accent-link-color);
-  border: 1px solid var(--accent-link-color);
 }
 
 .scroll {
